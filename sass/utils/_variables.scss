@@ -1,3 +1,10 @@
+@mixin font($fw, $fs, $lh, $ls) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+
 body {
     font-family: "Roboto", Tahoma, sans-serif;
     color: var(--primary-text-color);
@@ -17,11 +24,4 @@ body {
     --margin-94: 94px;
     --margin-10: 10px;
     --margin-30: 30px;
-}
-
-@mixin font($fw, $fs, $lh, $ls) {
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: $lh;
-    letter-spacing: $ls;
 }
